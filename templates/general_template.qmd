@@ -1,0 +1,42 @@
+---
+title: "General Template"
+author: "Pingfan Hu (G34988911)"
+date: "Oct 03, 2023"
+
+format:
+  html:
+    code-fold: false
+    toc: true
+    toc-location: right
+    theme: United
+    css: styles.css
+    self-contained: true
+    link-external-newwindow: true
+    link-external-icon: false
+
+execute: 
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+knitr::opts_chunk$set(
+    comment = "#>",
+    fig.path = "file_output/",
+    fig.width = 7.252,
+    fig.height = 4,
+    fig.retina = 3
+)
+
+library(tidyverse)
+library(here)
+```
+
+Example figure:
+
+::: {style="text-align: center;"}
+![](https://socviz.co/dataviz-pdfl_files/figure-html4/ch-01-colorspace-2.png){fig-alt="Figure 1: Five palettes generated from R’s colorspace library" width="300"}<br><span style="font-size: 0.8em;">***Figure 1**: Five palettes generated from R's colorspace library*
+:::
