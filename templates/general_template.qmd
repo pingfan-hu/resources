@@ -5,7 +5,8 @@ date: "Oct 03, 2023"
 
 format:
   html:
-    code-fold: false
+    code-fold: true
+    code-tools: true
     toc: true
     toc-location: right
     theme: United
@@ -39,4 +40,10 @@ Example figure:
 
 ::: {style="text-align: center;"}
 ![](https://socviz.co/dataviz-pdfl_files/figure-html4/ch-01-colorspace-2.png){fig-alt="Figure 1: Five palettes generated from R’s colorspace library" width="300"}<br><span style="font-size: 0.8em;">***Figure 1**: Five palettes generated from R's colorspace library*
+:::
+
+Example Figure:
+
+::: {style="text-align: center;"}
+![***Figure 1**: Pie Chart Example*](https://clauswilke.com/dataviz/visualizing_proportions_files/figure-html/bundestag-pie-1.png){fig-alt="Figure 1: Pie Chart Example" width="400"}
 :::
