@@ -1,0 +1,37 @@
+project: 
+  type: website
+
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    toc: true
+    toc-location: right
+    theme: United
+    css: styles.css
+    self-contained: true
+    link-external-newwindow: true
+    link-external-icon: false
+
+execute: 
+  echo: false
+  warning: false
+
+website: 
+  title: "PEV Project"
+  repo-url: https://github.com/jhelvy/pingfan
+  repo-actions: [edit, issue]
+  sidebar: 
+    style: docked
+    background: light
+    collapse-level: 1
+    search: true
+    contents: 
+      - text: Home
+        icon: house-door-fill
+        href: index.qmd
+      - section: Project
+        icon: pencil-square
+        contents: 
+          - text: 1. Project Proposal
+            href: qmd_project/01_project_proposal.qmd
