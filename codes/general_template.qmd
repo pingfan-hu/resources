@@ -25,18 +25,35 @@ execute:
 
 knitr::opts_chunk$set(
     comment = "#>",
-    fig.path = "file_output/",
-    fig.width = 7.252,
-    fig.height = 4,
-    fig.retina = 3
+    fig.align = "center",
+    fig.show = "hold",
+    fig.path = "figs/",
+    fig.width = 6,
+    fig.asp = 0.618,
+    fig.retina = 3,
+    out.width = "70%"
 )
 
 library(tidyverse)
 library(here)
 ```
 
-Example Figure:
+Load a Figure:
 
 ::: {style="text-align: center;"}
 ![***Figure 1**: Pie Chart Example*](https://clauswilke.com/dataviz/visualizing_proportions_files/figure-html/bundestag-pie-1.png){fig-alt="Figure 1: Pie Chart Example" width="400"}
 :::
+
+Generate 2 plots and show in one row:
+
+```{r}
+#| out-width: "50%"
+#| fig-align: "default"
+#| layout-ncol: 2
+ggplot(mpg, aes(displ, hwy)) +
+  geom_point(aes(color = drv))
+
+ggplot(mpg, aes(displ, hwy)) +
+  geom_point(aes(color = drv, shape = drv)) +
+  scale_color_brewer(palette = "Set1")
+```
