@@ -29,3 +29,20 @@ thead {
 .sidebar-title {
   color: #ECF0F1;
 }
+
+/* Slide Embedding */
+.golden-ratio-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 61.8%;
+}
+
+.golden-ratio-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #5654A2;
+}
