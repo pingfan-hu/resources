@@ -1,3 +1,5 @@
+editor: visual
+
 project: 
   type: website
 
@@ -6,12 +8,24 @@ format:
     code-fold: true
     code-tools: true
     toc: true
+    toc-depth: 5
     toc-location: right
-    theme: United
+    theme: [united, theme.scss]
     css: styles.css
     self-contained: true
     link-external-newwindow: true
     link-external-icon: false
+    backgroundcolor: "#F8F7F0"
+
+knitr: 
+  opts_chunk: 
+    comment: "#>"
+    fig.align: "center"
+    fig.show: "hold"
+    fig.asp: 0.618
+    fig.retna: 3
+    fig.path: figs_auto/
+    out.width: 70%
 
 execute: 
   echo: false
