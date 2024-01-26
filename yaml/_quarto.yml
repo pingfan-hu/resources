@@ -28,7 +28,7 @@ knitr:
     out.width: 70%
 
 execute: 
-  echo: false
+  freeze: false
   warning: false
 
 website: 
