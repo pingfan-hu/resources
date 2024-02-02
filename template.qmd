@@ -58,3 +58,7 @@ ggplot(mpg, aes(displ, hwy)) +
   geom_point(aes(color = drv, shape = drv)) +
   scale_color_brewer(palette = "Set1")
 ```
+
+Generate a button:
+
+<a href="https://scholar.google.com" class="btn btn-primary btn-sm" role="button"  target="_blank"> Google Scholar </a>
