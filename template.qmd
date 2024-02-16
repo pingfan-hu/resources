@@ -62,3 +62,9 @@ ggplot(mpg, aes(displ, hwy)) +
 Generate a button:
 
 <a href="https://scholar.google.com" class="btn btn-primary btn-sm" role="button"  target="_blank"> Google Scholar </a>
+
+Insert a video:
+
+<div class="responsive-video">
+    <iframe width="985" height="554" src="https://www.youtube.com/embed/77N4g2uZPdA?si=BL5MZIkl7W7BOgHN" title="Smart Charging Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
