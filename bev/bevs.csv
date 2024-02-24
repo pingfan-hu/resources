@@ -11,20 +11,20 @@ audi,Audi,q_8_sportback_e_tron,Q8 Sportback e-tron,audi_q_8_sportback_e_tron,Aud
 audi,Audi,rs_e_tron_gt,RS e-tron GT,audi_rs_e_tron_gt,Audi RS e-tron GT,250
 audi,Audi,sq_8_e_tron,SQ8 e-tron,audi_sq_8_e_tron,Audi SQ8 e-tron,250
 audi,Audi,sq_8_sportback_e_tron,SQ8 Sportback e-tron,audi_sq_8_sportback_e_tron,Audi SQ8 Sportback e-tron,250
-bmw,BMW,i_3,i3,bmw_i_3,BMW i3,150
-bmw,BMW,i_4,i4,bmw_i_4,BMW i4,300
-bmw,BMW,i_5,i5,bmw_i_5,BMW i5,300
+bmw,BMW,i_3,i3,bmw_i_3,BMW i3,100
+bmw,BMW,i_4,i4,bmw_i_4,BMW i4,250
+bmw,BMW,i_5,i5,bmw_i_5,BMW i5,250
 bmw,BMW,i_7,i7,bmw_i_7,BMW i7,300
 bmw,BMW,i_x,iX,bmw_i_x,BMW iX,300
 cadillac,Cadillac,lyriq,LYRIQ,cadillac_lyriq,Cadillac LYRIQ,300
 chevrolet,Chevrolet,blazer_ev,Blazer EV,chevrolet_blazer_ev,Chevrolet Blazer EV,300
 chevrolet,Chevrolet,bolt_euv,Bolt EUV,chevrolet_bolt_euv,Chevrolet Bolt EUV,250
 chevrolet,Chevrolet,bolt_ev,Bolt EV,chevrolet_bolt_ev,Chevrolet Bolt EV,250
-chevrolet,Chevrolet,spark_ev,Spark EV,chevrolet_spark_ev,Chevrolet Spark EV,150
-fiat,FIAT,500_e,500e,fiat_500_e,FIAT 500e,150
+chevrolet,Chevrolet,spark_ev,Spark EV,chevrolet_spark_ev,Chevrolet Spark EV,100
+fiat,FIAT,500_e,500e,fiat_500_e,FIAT 500e,100
 ford,Ford,e_transit_cargo_van,E-Transit Cargo Van,ford_e_transit_cargo_van,Ford E-Transit Cargo Van,150
 ford,Ford,f_150_lightning,F-150 Lightning,ford_f_150_lightning,Ford F-150 Lightning,300
-ford,Ford,focus,Focus,ford_focus,Ford Focus,150
+ford,Ford,focus,Focus,ford_focus,Ford Focus,100
 ford,Ford,mustang_mach_e,Mustang Mach-E,ford_mustang_mach_e,Ford Mustang Mach-E,250
 genesis,Genesis,electrified_g_80,Electrified G80,genesis_electrified_g_80,Genesis Electrified G80,300
 genesis,Genesis,electrified_gv_70,Electrified GV70,genesis_electrified_gv_70,Genesis Electrified GV70,250
@@ -32,39 +32,39 @@ genesis,Genesis,g_80,G80,genesis_g_80,Genesis G80,300
 genesis,Genesis,gv_60,GV60,genesis_gv_60,Genesis GV60,250
 gmc,GMC,hummer_ev,HUMMER EV,gmc_hummer_ev,GMC HUMMER EV,300
 gmc,GMC,hummer_ev_suv,HUMMER EV SUV,gmc_hummer_ev_suv,GMC HUMMER EV SUV,300
-honda,Honda,clarity,Clarity,honda_clarity,Honda Clarity,150
-honda,Honda,fit_ev,Fit EV,honda_fit_ev,Honda Fit EV,150
-hyundai,Hyundai,ioniq_5,IONIQ 5,hyundai_ioniq_5,Hyundai IONIQ 5,300
+honda,Honda,clarity,Clarity,honda_clarity,Honda Clarity,100
+honda,Honda,fit_ev,Fit EV,honda_fit_ev,Honda Fit EV,100
+hyundai,Hyundai,ioniq_5,IONIQ 5,hyundai_ioniq_5,Hyundai IONIQ 5,250
 hyundai,Hyundai,ioniq_6,IONIQ 6,hyundai_ioniq_6,Hyundai IONIQ 6,300
 hyundai,Hyundai,ioniq_electric,Ioniq Electric,hyundai_ioniq_electric,Hyundai Ioniq Electric,150
 hyundai,Hyundai,kona_electric,Kona Electric,hyundai_kona_electric,Hyundai Kona Electric,250
 jaguar,Jaguar,i_pace,I-PACE,jaguar_i_pace,Jaguar I-PACE,250
 kia,Kia,ev_6,EV6,kia_ev_6,Kia EV6,250
 kia,Kia,niro_ev,Niro EV,kia_niro_ev,Kia Niro EV,250
-kia,Kia,soul_ev,Soul EV,kia_soul_ev,Kia Soul EV,150
+kia,Kia,soul_ev,Soul EV,kia_soul_ev,Kia Soul EV,100
 lexus,Lexus,rz_450_e,RZ 450e,lexus_rz_450_e,Lexus RZ 450e,200
 lucid,Lucid,air,Air,lucid_air,Lucid Air,450
-mazda,Mazda,mx_30,MX-30,mazda_mx_30,Mazda MX-30,150
-mercedes_benz,Mercedes-Benz,b_class_electric_drive,B-Class Electric Drive,mercedes_benz_b_class_electric_drive,Mercedes-Benz B-Class Electric Drive,150
+mazda,Mazda,mx_30,MX-30,mazda_mx_30,Mazda MX-30,100
+mercedes_benz,Mercedes-Benz,b_class_electric_drive,B-Class Electric Drive,mercedes_benz_b_class_electric_drive,Mercedes-Benz B-Class Electric Drive,100
 mercedes_benz,Mercedes-Benz,eqb,EQB,mercedes_benz_eqb,Mercedes-Benz EQB,250
-mercedes_benz,Mercedes-Benz,eqe,EQE,mercedes_benz_eqe,Mercedes-Benz EQE,300
+mercedes_benz,Mercedes-Benz,eqe,EQE,mercedes_benz_eqe,Mercedes-Benz EQE,250
 mercedes_benz,Mercedes-Benz,eqe_suv,EQE SUV,mercedes_benz_eqe_suv,Mercedes-Benz EQE SUV,300
-mercedes_benz,Mercedes-Benz,eqs,EQS,mercedes_benz_eqs,Mercedes-Benz EQS,350
+mercedes_benz,Mercedes-Benz,eqs,EQS,mercedes_benz_eqs,Mercedes-Benz EQS,300
 mercedes_benz,Mercedes-Benz,eqs_suv,EQS SUV,mercedes_benz_eqs_suv,Mercedes-Benz EQS SUV,300
 mercedes_benz,Mercedes-Benz,e_sprinter,eSprinter,mercedes_benz_e_sprinter,Mercedes-Benz eSprinter,250
 mercedes_benz,Mercedes-Benz,maybach_eqs_suv,Maybach EQS SUV,mercedes_benz_maybach_eqs_suv,Mercedes-Benz Maybach EQS SUV,400
-mini,MINI,hardtop_2_door,Hardtop 2 Door,mini_hardtop_2_door,MINI Hardtop 2 Door,150
-mitsubishi,Mitsubishi,i_mi_ev,i-MiEV,mitsubishi_i_mi_ev,Mitsubishi i-MiEV,150
-nissan,Nissan,ariya,ARIYA,nissan_ariya,Nissan ARIYA,300
+mini,MINI,hardtop_2_door,Hardtop 2 Door,mini_hardtop_2_door,MINI Hardtop 2 Door,100
+mitsubishi,Mitsubishi,i_mi_ev,i-MiEV,mitsubishi_i_mi_ev,Mitsubishi i-MiEV,100
+nissan,Nissan,ariya,ARIYA,nissan_ariya,Nissan ARIYA,250
 nissan,Nissan,leaf,LEAF,nissan_leaf,Nissan LEAF,150
 polestar,Polestar,2,2,polestar_2,Polestar 2,250
-porsche,Porsche,taycan,Taycan,porsche_taycan,Porsche Taycan,250
-rivian,Rivian,r_1_s,R1S,rivian_r_1_s,Rivian R1S,400
-rivian,Rivian,r_1_t,R1T,rivian_r_1_t,Rivian R1T,300
-subaru,Subaru,solterra,Solterra,subaru_solterra,Subaru Solterra,250
+porsche,Porsche,taycan,Taycan,porsche_taycan,Porsche Taycan,200
+rivian,Rivian,r_1_s,R1S,rivian_r_1_s,Rivian R1S,300
+rivian,Rivian,r_1_t,R1T,rivian_r_1_t,Rivian R1T,350
+subaru,Subaru,solterra,Solterra,subaru_solterra,Subaru Solterra,200
 tesla,Tesla,model_3,Model 3,tesla_model_3,Tesla Model 3,300
-tesla,Tesla,model_s,Model S,tesla_model_s,Tesla Model S,350
-tesla,Tesla,model_x,Model X,tesla_model_x,Tesla Model X,350
+tesla,Tesla,model_s,Model S,tesla_model_s,Tesla Model S,300
+tesla,Tesla,model_x,Model X,tesla_model_x,Tesla Model X,300
 tesla,Tesla,model_y,Model Y,tesla_model_y,Tesla Model Y,300
 tesla,Tesla,roadster,Roadster,tesla_roadster,Tesla Roadster,600
 toyota,Toyota,b_z_4_x,bZ4X,toyota_b_z_4_x,Toyota bZ4X,250
@@ -72,4 +72,4 @@ vin_fast,VinFast,vf_8,VF 8,vin_fast_vf_8,VinFast VF 8,200
 volkswagen,Volkswagen,e_golf,e-Golf,volkswagen_e_golf,Volkswagen e-Golf,150
 volkswagen,Volkswagen,id_4,ID.4,volkswagen_id_4,Volkswagen ID.4,250
 volvo,Volvo,c_40_recharge,C40 Recharge,volvo_c_40_recharge,Volvo C40 Recharge,250
-volvo,Volvo,xc_40_recharge,XC40 Recharge,volvo_xc_40_recharge,Volvo XC40 Recharge,200
+volvo,Volvo,xc_40_recharge,XC40 Recharge,volvo_xc_40_recharge,Volvo XC40 Recharge,250
