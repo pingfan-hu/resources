@@ -25,21 +25,21 @@ fiat,FIAT,500_e,500e,fiat_500_e,FIAT 500e,150
 ford,Ford,e_transit_cargo_van,E-Transit Cargo Van,ford_e_transit_cargo_van,Ford E-Transit Cargo Van,150
 ford,Ford,f_150_lightning,F-150 Lightning,ford_f_150_lightning,Ford F-150 Lightning,300
 ford,Ford,focus,Focus,ford_focus,Ford Focus,150
-ford,Ford,mustang_mach_e,Mustang Mach-E,ford_mustang_mach_e,Ford Mustang Mach-E,300
+ford,Ford,mustang_mach_e,Mustang Mach-E,ford_mustang_mach_e,Ford Mustang Mach-E,250
 genesis,Genesis,electrified_g_80,Electrified G80,genesis_electrified_g_80,Genesis Electrified G80,300
 genesis,Genesis,electrified_gv_70,Electrified GV70,genesis_electrified_gv_70,Genesis Electrified GV70,250
 genesis,Genesis,g_80,G80,genesis_g_80,Genesis G80,300
 genesis,Genesis,gv_60,GV60,genesis_gv_60,Genesis GV60,250
-gmc,GMC,hummer_ev,HUMMER EV,gmc_hummer_ev,GMC HUMMER EV,350
+gmc,GMC,hummer_ev,HUMMER EV,gmc_hummer_ev,GMC HUMMER EV,300
 gmc,GMC,hummer_ev_suv,HUMMER EV SUV,gmc_hummer_ev_suv,GMC HUMMER EV SUV,300
 honda,Honda,clarity,Clarity,honda_clarity,Honda Clarity,150
 honda,Honda,fit_ev,Fit EV,honda_fit_ev,Honda Fit EV,150
 hyundai,Hyundai,ioniq_5,IONIQ 5,hyundai_ioniq_5,Hyundai IONIQ 5,300
-hyundai,Hyundai,ioniq_6,IONIQ 6,hyundai_ioniq_6,Hyundai IONIQ 6,350
+hyundai,Hyundai,ioniq_6,IONIQ 6,hyundai_ioniq_6,Hyundai IONIQ 6,300
 hyundai,Hyundai,ioniq_electric,Ioniq Electric,hyundai_ioniq_electric,Hyundai Ioniq Electric,150
 hyundai,Hyundai,kona_electric,Kona Electric,hyundai_kona_electric,Hyundai Kona Electric,250
 jaguar,Jaguar,i_pace,I-PACE,jaguar_i_pace,Jaguar I-PACE,250
-kia,Kia,ev_6,EV6,kia_ev_6,Kia EV6,300
+kia,Kia,ev_6,EV6,kia_ev_6,Kia EV6,250
 kia,Kia,niro_ev,Niro EV,kia_niro_ev,Kia Niro EV,250
 kia,Kia,soul_ev,Soul EV,kia_soul_ev,Kia Soul EV,150
 lexus,Lexus,rz_450_e,RZ 450e,lexus_rz_450_e,Lexus RZ 450e,200
@@ -56,7 +56,7 @@ mercedes_benz,Mercedes-Benz,maybach_eqs_suv,Maybach EQS SUV,mercedes_benz_maybac
 mini,MINI,hardtop_2_door,Hardtop 2 Door,mini_hardtop_2_door,MINI Hardtop 2 Door,150
 mitsubishi,Mitsubishi,i_mi_ev,i-MiEV,mitsubishi_i_mi_ev,Mitsubishi i-MiEV,150
 nissan,Nissan,ariya,ARIYA,nissan_ariya,Nissan ARIYA,300
-nissan,Nissan,leaf,LEAF,nissan_leaf,Nissan LEAF,200
+nissan,Nissan,leaf,LEAF,nissan_leaf,Nissan LEAF,150
 polestar,Polestar,2,2,polestar_2,Polestar 2,250
 porsche,Porsche,taycan,Taycan,porsche_taycan,Porsche Taycan,250
 rivian,Rivian,r_1_s,R1S,rivian_r_1_s,Rivian R1S,400
