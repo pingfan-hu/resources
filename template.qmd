@@ -41,8 +41,8 @@ library(here)
 
 Load a Figure:
 
-::: {style="text-align: center;"}
-![**Figure 1**: *Pie Chart Example*](https://clauswilke.com/dataviz/visualizing_proportions_files/figure-html/bundestag-pie-1.png){width="400"}
+::: {style="margin: auto; width: 600px;"}
+![**Figure 1**: *Pie Chart Example*](https://clauswilke.com/dataviz/visualizing_proportions_files/figure-html/bundestag-pie-1.png)
 :::
 
 Generate 2 plots and show in one row:
