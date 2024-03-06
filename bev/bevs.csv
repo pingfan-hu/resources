@@ -24,7 +24,7 @@ chevrolet,Chevrolet,spark_ev,Spark EV,chevrolet_spark_ev,Chevrolet Spark EV,100
 fiat,FIAT,500_e,500e,fiat_500_e,FIAT 500e,100
 ford,Ford,e_transit_cargo_van,E-Transit Cargo Van,ford_e_transit_cargo_van,Ford E-Transit Cargo Van,150
 ford,Ford,f_150_lightning,F-150 Lightning,ford_f_150_lightning,Ford F-150 Lightning,300
-ford,Ford,focus,Focus,ford_focus,Ford Focus,100
+ford,Ford,focus_ev,Focus,ford_focus_ev,Ford Focus EV,100
 ford,Ford,mustang_mach_e,Mustang Mach-E,ford_mustang_mach_e,Ford Mustang Mach-E,250
 genesis,Genesis,electrified_g_80,Electrified G80,genesis_electrified_g_80,Genesis Electrified G80,300
 genesis,Genesis,electrified_gv_70,Electrified GV70,genesis_electrified_gv_70,Genesis Electrified GV70,250
@@ -53,7 +53,7 @@ mercedes_benz,Mercedes-Benz,eqs,EQS,mercedes_benz_eqs,Mercedes-Benz EQS,300
 mercedes_benz,Mercedes-Benz,eqs_suv,EQS SUV,mercedes_benz_eqs_suv,Mercedes-Benz EQS SUV,300
 mercedes_benz,Mercedes-Benz,e_sprinter,eSprinter,mercedes_benz_e_sprinter,Mercedes-Benz eSprinter,250
 mercedes_benz,Mercedes-Benz,maybach_eqs_suv,Maybach EQS SUV,mercedes_benz_maybach_eqs_suv,Mercedes-Benz Maybach EQS SUV,400
-mini,MINI,hardtop_2_door,Hardtop 2 Door,mini_hardtop_2_door,MINI Hardtop 2 Door,100
+mini,MINI,hardtop_2_door_ev,Hardtop 2 Door EV,mini_hardtop_2_door_ev,MINI Hardtop 2 Door EV,100
 mitsubishi,Mitsubishi,i_mi_ev,i-MiEV,mitsubishi_i_mi_ev,Mitsubishi i-MiEV,100
 nissan,Nissan,ariya,ARIYA,nissan_ariya,Nissan ARIYA,250
 nissan,Nissan,leaf,LEAF,nissan_leaf,Nissan LEAF,150
