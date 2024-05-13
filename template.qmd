@@ -41,7 +41,7 @@ library(here)
 
 Load a Figure:
 
-::: {style="margin: auto; width: 600px;"}
+::: {style="margin: auto; max-width: 600px;"}
 ![**Figure 1**: *Pie Chart Example*](https://clauswilke.com/dataviz/visualizing_proportions_files/figure-html/bundestag-pie-1.png)
 :::
 
