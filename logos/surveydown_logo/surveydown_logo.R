@@ -38,12 +38,16 @@ logo <- ggplot() +
   annotation_custom(grobTree(rounded_rect),
                     xmin = -1, xmax = 1,
                     ymin = -1, ymax = 1) +
-  geom_text(aes(x = -0.22, y = 0.1),
+  geom_text(aes(x = -0.2, y = 0.1),
             label = "S", color = "black",
             size = 26, fontface = "bold") +
   annotation_custom(grobTree(down_arrow()),
-                    xmin = -0.55, xmax = 1.05,
+                    xmin = -0.6, xmax = 1.05,
                     ymin = -0.7, ymax = 1.05) +
+  geom_richtext(aes(x = 0.015, y = -0.395),
+                label = "<span style='color:black;'>survey</span><span style='color:white;'>down</span>",
+                size = 12, family = "Verdana",
+                fill = NA, label.color = NA) +
   geom_richtext(aes(x = 0, y = -0.38),
                 label = "<span style='color:white;'>survey</span><span style='color:black;'>down</span>",
                 size = 12, family = "Verdana",
