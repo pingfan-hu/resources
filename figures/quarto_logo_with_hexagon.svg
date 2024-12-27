@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hexagon -->
+  <polygon 
+    points="100,20 170,60 170,140 100,180 30,140 30,60"
+    fill="transparent"
+    stroke="#4682B4"
+    stroke-width="4"
+  />
+  
+  <!-- Background circle divided into 4 parts -->
+  <g transform="translate(40, 40) scale(0.6)">
+    <circle cx="100" cy="100" r="90" fill="#4682B4"/>
+    
+    <!-- White cross lines -->
+    <path d="M100,10 L100,190" stroke="white" stroke-width="8"/>
+    <path d="M10,100 L190,100" stroke="white" stroke-width="8"/>
+  </g>
+</svg>
