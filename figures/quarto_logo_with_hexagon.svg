@@ -3,16 +3,22 @@
   <polygon 
     points="100,20 170,60 170,140 100,180 30,140 30,60"
     fill="transparent"
-    stroke="#4682B4"
+    stroke="#74A9DB"
     stroke-width="4"
   />
   
-  <!-- Background circle divided into 4 parts -->
+  <!-- Four sectors with wider gaps -->
   <g transform="translate(40, 40) scale(0.6)">
-    <circle cx="100" cy="100" r="90" fill="#4682B4"/>
+    <!-- Top-right quarter -->
+    <path d="M106,94 L106,16 A90,90 0 0,1 184,94 L106,94" fill="#74A9DB"/>
     
-    <!-- White cross lines -->
-    <path d="M100,10 L100,190" stroke="white" stroke-width="8"/>
-    <path d="M10,100 L190,100" stroke="white" stroke-width="8"/>
+    <!-- Top-left quarter -->
+    <path d="M94,94 L16,94 A90,90 0 0,1 94,16 L94,94" fill="#74A9DB"/>
+    
+    <!-- Bottom-left quarter -->
+    <path d="M94,106 L94,184 A90,90 0 0,1 16,106 L94,106" fill="#74A9DB"/>
+    
+    <!-- Bottom-right quarter -->
+    <path d="M106,106 L184,106 A90,90 0 0,1 106,184 L106,106" fill="#74A9DB"/>
   </g>
 </svg>
