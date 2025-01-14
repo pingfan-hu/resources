@@ -1,0 +1,16 @@
+/* Blockquote */
+blockquote {
+  background-color: #ECF0F1;
+  padding: 10px;
+  border-color: #DD4814;
+  border-radius: 5px;
+}
+
+/* Table */
+table {
+  width: auto !important;
+}
+thead {
+  border-top: solid #DCDCDC;
+  border-bottom: solid #DCDCDC;
+}

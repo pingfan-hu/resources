@@ -1,0 +1,4 @@
+- source: v2g_attributes.qmd
+  quarto-pub:
+    - id: 8d02689d-c95f-4433-abd7-20ca4d39119a
+      url: 'https://gwu.quarto.pub/v2g'

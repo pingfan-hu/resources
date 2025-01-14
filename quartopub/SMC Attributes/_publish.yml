@@ -1,0 +1,4 @@
+- source: smc_attributes.qmd
+  quarto-pub:
+    - id: 66911d42-e480-4e56-989a-b3e234b4a616
+      url: 'https://gwu.quarto.pub/smc'

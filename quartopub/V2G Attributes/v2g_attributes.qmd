@@ -1,0 +1,94 @@
+---
+title: "Vehicle-to-Grid"
+
+format:
+  html:
+    theme: United
+    css: styles.css
+    self-contained: true
+    link-external-newwindow: true
+    link-external-icon: false
+    lightbox: true
+    backgroundcolor: "#F8F7F0"
+
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+library(kableExtra)
+```
+
+> **V2G** (**V**ehicle-**to**-**G**rid) lets your vehicle supply the grid as external power during peak times, reducing the need for additional battery storage and benefiting the environment.
+>
+> If you enroll, your utility may purchase electricity from your car as needed. You'll receive prior notification, and your vehicle will be recharged to a guaranteed range in the end.
+
+**Sample V2G Program** (Considering max range of **200** miles):
+
+::: {style="display: flex; flex-wrap: wrap; gap: 2%; padding-bottom: 20px;"}
+::: {style="width: 40%;"}
+::: {style="border: 1px solid black;"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_2 <- tibble(
+    `Enrollment Cash:` = scales::dollar(300),
+    `Occurrence Cash:` = scales::dollar(20),
+    `Monthly Occurrence:` = 1
+)
+
+option_2_t <- as.data.frame(t(option_2)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_2_t) <- NULL
+
+option_2_kable <- option_2_t %>% 
+    kable(escape = FALSE, align = c("r", "c")) %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em') %>%
+    kable_styling(position = "center")
+
+option_2_kable
+```
+
+::: {style="text-align: center;"}
+<img src="https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/battery_v2g/u_200_g_160_l_80.png" style="max-width: 300px; width: 100%; height: auto;"/>
+:::
+:::
+:::
+
+::: {style="width: 58%;"}
+1.  You get one-time payment of **\$300** if you stay for at least 3 months.
+2.  You are compensated **\$20** each time the V2G event occurs.
+3.  The V2G event occurs **1** time per month.
+4.  V2G won't drain your battery below **80** miles.
+5.  Your battery will be charged back to at least **160** miles with 8 hrs' charging.
+:::
+:::
+
+**V2G Attributes Explained:**
+
+```{r}
+v2g_attributes <- tibble(
+    `No.` = c("Attribute", "Range", "Explanation"),
+    `1` = c("Enrollment Cash", "$50, $100, $200, $300", "The one-time payment you'll receive if you stay for at least 3 months."),
+    `2` = c("Occurrence Cash", "$2, $5, $10, $15, $20", "The amount you'll earn for each occurrence of V2G."),
+    `3` = c("Monthly Occurrence", "1, 2, 3, 4", "The monthly occurrence of V2G."),
+    `4` = c("Lower Bound", "20%, 30%, 40%", "(See battery bar) V2G won't drain your battery below this percentage. Converted to miles."),
+    `5` = c("Guaranteed Threshold", "60%, 70%, 80%", "(See battery bar) V2G will charge your battery back to this percentage with 8 hrs' charging. Converted to miles."))
+row.names(v2g_attributes) <- NULL
+
+kable(t(v2g_attributes), escape = FALSE) %>% 
+    kable_styling(bootstrap_options = c("striped", "hover")) %>%
+    column_spec(column = 1, width = '3%') %>% 
+    column_spec(column = 2, width = '21%') %>% 
+    column_spec(column = 3, width = '20%') %>% 
+    column_spec(column = 4, width = '100%') %>% 
+    row_spec(row = 1, bold = TRUE)
+```

@@ -1,0 +1,1367 @@
+---
+title: "Conjoint Survey of BEV Smart Charging Adoption"
+
+format:
+  html:
+    theme: United
+    css: styles.css
+    self-contained: true
+    link-external-newwindow: true
+    link-external-icon: false
+    lightbox: true
+    backgroundcolor: "#F8F7F0"
+
+execute: 
+  echo: false
+  warning: false
+---
+
+> This page is the manuscript of our survey.
+> 
+> For the real survey, please proceed to the "Survey" button in the **Links** section below.
+> 
+> The light blue buttons on this page are only for indication of page flip in the real survey.
+
+## Links
+
+<a href="https://carsurvey3.formr.org/" class="btn btn-primary" role="button" target="_blank"> Survey </a> <a href="https://gwu.quarto.pub/smc/" class="btn btn-primary" role="button" target="_blank"> SMC Attributes </a> <a href="https://gwu.quarto.pub/v2g/" class="btn btn-primary" role="button" target="_blank"> V2G Attributes </a>
+
+## Start
+
+::: {style="text-align: center;"}
+![](https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/social_image_1_narrow.jpeg){width="1000"}
+:::
+
+Are you an EV owner? We are a research team of George Washington University. This survey will ask you simple questions regarding your car ownership.
+
+The survey begins upon clicking the **"Let's Begin"** button below. We greatly appreciate your participation!
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Let's Begin </a>
+:::
+
+## Consent Page
+
+Participation to this survey is voluntary. To take a part in this survey, you must:
+
+-   Be at least 18 years old.
+-   Authorize us to analyze the data exclusively for research purposes.
+
+This survey will take about **5 minutes** to complete. It can be stopped and picked up at any time. Your personal information will be kept private and won't be shared with anyone else.
+
+The Office of Human Research of George Washington University, at telephone number (202) 994-2715, can provide further information about your rights as a research participant.
+
+By clicking on "**I Agree**", you confirm that you have reviewed and understood the information provided in the welcome page and this consent page, and agree to participate in the "Car Ownership Survey".
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> I Agree </a>
+:::
+
+## Car Ownership
+
+**0.** (Use `showif`) Are you bot?
+
+-   This question is invisible by the `showif` setting. As long as this question is answered, we detect this user as a bot.
+-   We are also curious of how many bots are there in the survey-taking platforms.
+
+> **Screening 1:** As long as this bot question is answered, the user is marked as bot and is screened out.
+
+**1.** What is your ZIP code?
+
+-   Here we provide a text line accepting inputs of 5 characters in length.
+
+**2.** How many cars do you have?
+
+-   1
+-   2
+-   3
+-   4
+-   5 or more
+-   I don't have a car
+
+> **Screening 2:** By choosing "I don't have a car" the user will be screened out.
+
+**3.** What is the **make** of your primary car?
+
+-   Here we provide a list of all car makes.
+
+**3.1** What is the **model** of your primary car?
+
+-   Here we provide a list of models. This list changes based on the previously answered car makes.
+
+**4.** What is the **model year** of your primary car?
+
+-   Here we provide a list from 1984 to 2024, and an option of "I don't know".
+
+**5.** What is the **make** of your secondary car?
+
+-   Here we provide a list of all car makes.
+
+**5.1** What is the **model** of your secondary car?
+
+-   Here we provide a list of models. This list changes based on the previously answered car makes.
+
+**6.** What is the **model year** of your secondary car?
+
+-   Here we provide a list from 1984 to 2024, and an option of "I don't know".
+
+> **Screening 3:** The user has at most 2 chances to choose the cars. Only if at least one car chosen is a BEV can the user be guided to the later BEV sections. The user is otherwise screened out.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+## Transitional Page
+
+Introducing the BEV Smart Charging Programs!
+
+::: {style="text-align: center;"}
+![](https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/social_image_2_narrow.jpeg){width="1000"}
+:::
+
+> A **BEV** (**B**attery **E**lectric **V**ehicle) is a fully electricity-powered car. In this extended survey, we want to study your willingness to adopt the **BEV Smart Charging** programs.
+
+This survey will take about **10 minutes** to complete. Likewise, it can be stopped and picked up at any time. Your personal information will be kept private and won't be shared with anyone else.
+
+This survey consists of 4 sections:
+
+-   Section 1 - BEV Basics
+-   Section 2 - SMC (Supplier-Managed Charging) Programs
+-   Section 3 - Demographics
+-   Section 4 (Optional) - V2G (Vehicle-to-Grid) Programs
+
+If you have any questions, you can reach out to us at [gwuvehicle\@gmail.com](mailto:gwuvehicle@gmail.com). We will respond at our first convenience. The Office of Human Research of George Washington University, at telephone number (202) 994-2715, can provide further information about your rights as a research participant.
+
+The survey proceeds upon clicking the **"Let's Continue"** button below. We greatly appreciate your participation!
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Let's Continue </a>
+:::
+
+## Educational Page
+
+-   **BEV** (Battery Electric Vehicle) is a electricity powered vehicle that needs to be charged. A Tesla Model 3 is a BEV.
+-   **Smart Charging** means to manage your BEV charging. It includes SMC (Supplier-Managed Charging) and V2G (Vehicle-to-Grid).
+-   Smart charging benefits the grid by preventing overload and minimizing upgrade cost, which is eventually paid for by the customers. By applying smart charging, customers can save money and ensure less greenhouse gas emission.
+
+**Difference between unmanaged and managed charging:**
+
+::: {style="text-align: center; border: 1px solid black; padding: 10px; margin-bottom: 10px;"}
+![**Figure 1**: *Unmanaged vs Managed Charging*](https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/education_1.png){width="800"}
+:::
+
+When you are done reading, please click on the **"Next Page"** button to proceed.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+## Section 1 - BEV Basics
+
+### BEV Usage
+
+**1.** Do you commute to work?
+
+-   Yes
+-   No
+
+**1.1** (Use `showif`) How do you commute to work (select all that apply)?
+
+-   By Car
+-   By Bus
+-   By Train/Subway
+-   By Walk/Bike/Scooter
+
+**1.2** (Use `showif`) How many days per week do you drive to commute?
+
+-   Here we provide a list from 1 to 7.
+
+**2.** On average, how far do you drive per day?
+
+-   Below 10 Miles
+-   10 to 30 Miles
+-   31 to 50 Miles
+-   51 to 100 Miles
+-   Over 100 Miles
+-   I don't drive
+
+**3.** Where do you park at home?
+
+-   Private Garage
+-   Shared Garage
+-   Shared Parking Lot
+-   Street Parking
+-   Driveway/Carport
+-   Other (Text box provided)
+-   Prefer not to say
+
+**4.** Do any of your neighbors own/lease an electric vehicle?
+
+-   Yes
+-   No
+-   I'm not sure
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+**5.** What is the max range in miles of your BEV (select the nearest value)?
+
+-   Here we provide a list ranging from 100 to 600 miles.
+-   By selection "I don't know", a note will be provided to indicate the typical max range of that BEV.
+-   The selected range here will be used for the conjoint questions.
+
+**6.** How do you manage your vehicle charging?
+
+-   I don't actively manage.
+-   I use an app to control charging.
+-   I am enrolled into a charging management program. (Text box provided)
+
+**7.** Do you have a Level 2 charger for your vehicle (a 240V AC outlet, similar to a dryer outlet)?
+
+-   Yes
+-   No
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### Home Charging
+
+**8.** Do you charge at **home**?
+
+-   Yes
+-   No
+
+**8.1** (Use `showif`) How many days in a week do you typically charge at **home**?
+
+-   Here we provide a list of 1 through 7.
+
+**8.2** (Use `showif`) How long do you usually leave your car plugged in at **home**?
+
+-   Less than 3 hours
+-   3-5 hours
+-   5-8 hours
+-   More than 8 hours
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### Work Charging
+
+**9.** Do you charge at **work**?
+
+-   Yes
+-   No
+
+**9.1** (Use `showif`) How many days in a week do you typically charge at **work**?
+
+-   Here we provide a list of 1 through 7.
+
+**9.2** (Use `showif`) How long do you usually leave your car plugged in at **work**?
+
+-   Less than 3 hours
+-   3-5 hours
+-   5-8 hours
+-   More than 8 hours
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### End of Section 1
+
+Good job! This is the end of **Section 1**.
+
+**Section 2** is about the **SMC** program (a common approach of Smart Charging). In Section 2:
+
+-   We will give you brief intro of this program.
+-   There are **6** questions. Each one provides you with **2** options and a "Not Interested" option.
+-   You need to compare and pick the one you prefer, or choose "Not Interested" if you don't like either of them.
+
+We will start with an explanation page and an example question to get you familiarized.
+
+Please click on the button below to proceed.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+## Section 2 - SMC Programs
+
+```{r, include=FALSE}
+# Read in the SMC choice questions
+library(tidyverse)
+smc_survey <- read_csv("https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/smc_questions.csv")
+
+# Define the respondent ID
+smc_respID <- sample(smc_survey$respID, 1)
+
+# Create the subset of rows for that respondent ID
+smc_df <- smc_survey %>% 
+    filter(respID == smc_respID)
+
+# Convert df to json
+smc_df_json <- jsonlite::toJSON(smc_df)
+
+# Create a dummy user_range value
+user_range <- 200
+```
+
+> **SMC** (**S**upplier-**M**anaged **C**harging) allows the utility to monitor, manage, and restrict BEV charging to optimize energy flow **during night charging at home**. By SMC, your BEV will be mostly charged during off-peak periods.
+
+Sample **SMC** program (Considering max range of **200** miles):
+
+::: {style="display: flex; flex-wrap: wrap; gap: 2%;"}
+::: {style="width: 40%;"}
+::: {style="border: 1px solid black;"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_2 <- tibble(
+    `Enrollment Cash:` = scales::dollar(300),
+    `Monthly Cash:` = scales::dollar(20),
+    `Override Allowance:` = "5 per month"
+)
+
+option_2_t <- as.data.frame(t(option_2)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_2_t) <- NULL
+
+option_2_kable <- option_2_t %>% 
+    kable(escape = FALSE, align = c("r", "c")) %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em') %>% 
+    kable_styling(position = "center")
+
+option_2_kable
+```
+
+::: {style="text-align: center;"}
+<img src="https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/battery_smc/u_200_g_160_m_80.png" style="max-width: 300px; width: 100%; height: auto;"/>
+:::
+:::
+:::
+
+::: {style="width: 58%;"}
+1.  You get one-time payment of **\$300** if you stay for at least 3 months.
+2.  You get recurring monthly payment of **\$20** if you don't exceed override allowance for that month.
+3.  Freely override to normal charging for up to **5** times per month, each time effective for 24 hrs.
+4.  SMC won't work if battery is below **80** miles.
+5.  SMC will give you guaranteed **160** miles by the morning (8 hrs' charging).
+:::
+:::
+
+Click <a href="https://gwu.quarto.pub/smc/" class="btn btn-primary btn-sm" role="button" target="_blank"> This Link </a> for a detailed explanation. It's available on top of each question so that you can refer at any time.
+
+The next page provides a sample question to enhance your understanding.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### Sample Question
+
+You are provided with **2 options** of SMC programs, and a **"Not Interested"** option. Once you choose one option, you accept **all** attributes it provides. If you are not interested in either of them, you may choose "Not Interested".
+
+(Your BEV has maximum range of **200** miles.)
+
+<a href="https://gwu.quarto.pub/smc/" class="btn btn-primary btn-sm" role="button" target="_blank"> Access the SMC Attributes </a>
+
+::: {style="text-align: center;"}
+::: columns
+::: {.column width="33%"}
+**Option 1**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_1 <- tibble(
+    `Enrollment Cash:` = scales::dollar(50),
+    `Monthly Cash:` = scales::dollar(2),
+    `Override Allowance:` = "0 per month"
+)
+
+option_1_t <- as.data.frame(t(option_1)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_1_t) <- NULL
+
+option_1_kable <- option_1_t %>% 
+    kable(escape = FALSE,
+          align = c("r", "c")) %>% 
+    kable_styling(bootstrap_options = "striped") %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em')
+
+option_1_kable
+```
+
+Battery Thresholds (in Miles):
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.3, fig.width=4, out.width="100%"}
+library(ggplot2)
+
+# Threshold Values
+guaranteed_1 <- 120
+minimum_1 <- 40
+
+# Option 1 Thresholds
+threshold_1 <- data.frame(
+    xmin = c(0, minimum_1, guaranteed_1),
+    xmax = c(minimum_1, guaranteed_1, user_range),
+    ymin = 0,
+    ymax = 0.1,
+    fill = c("lightgrey", "sandybrown", "lightgreen")
+)
+
+# Option 1 Plot
+ggplot(threshold_1,
+       aes(xmin = xmin, xmax = xmax,
+           ymin = ymin, ymax = ymax,
+           fill = fill)) +
+    
+    # Border
+    geom_rect(color = "black", size = 0.3) +
+    
+    # Threshold lines
+    geom_segment(
+        aes(x = minimum_1, xend = minimum_1, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+    geom_segment(
+        aes(x = guaranteed_1, xend = guaranteed_1, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+
+    # Threshold labels
+    geom_label(
+        aes(x = minimum_1, y = 0.17, label = "Min"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +
+    geom_label(
+        aes(x = guaranteed_1, y = 0.17, label = "Guaranteed"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +    
+        
+    # Arrows
+    geom_segment(
+        aes(x = minimum_1, xend = minimum_1, y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    geom_segment(
+        aes(x = guaranteed_1, xend = guaranteed_1, y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    
+    # Other settings
+    scale_fill_identity() +
+    scale_x_continuous(
+        breaks = c(0, minimum_1, guaranteed_1, user_range)
+        ) +
+    labs(x = "", y = "") +
+    coord_cartesian(ylim = c(0, 0.2)) +
+    theme_bw(base_family = "Ubuntu") +
+    theme(legend.position = "none",
+          axis.text.x = element_text(size = 12),
+          axis.title.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank(),
+          panel.border = element_blank(),
+          panel.grid = element_blank())
+```
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="33%"}
+**Option 2**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_2 <- tibble(
+    `Enrollment Cash:` = scales::dollar(300),
+    `Monthly Cash:` = scales::dollar(20),
+    `Override Allowance:` = "5 per month"
+)
+
+option_2_t <- as.data.frame(t(option_2)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_2_t) <- NULL
+
+option_2_kable <- option_2_t %>% 
+    kable(escape = FALSE,
+          align = c("r", "c")) %>% 
+    kable_styling(bootstrap_options = "striped") %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em')
+
+option_2_kable
+```
+
+Battery Thresholds (in Miles):
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.3, fig.width=4, out.width="100%"}
+library(ggplot2)
+
+# Threshold Values
+guaranteed_2 <- 160
+minimum_2 <- 80
+
+# Option 2 Thresholds
+threshold_2 <- data.frame(
+    xmin = c(0, minimum_2, guaranteed_2),
+    xmax = c(minimum_2, guaranteed_2, user_range),
+    ymin = 0,
+    ymax = 0.1,
+    fill = c("lightgrey", "sandybrown", "lightgreen")
+)
+
+# Option 2 Plot
+ggplot(threshold_2, aes(xmin = xmin, xmax = xmax,
+                 ymin = ymin, ymax = ymax,
+                 fill = fill)) +
+    
+    # Border
+    geom_rect(color = "black", size = 0.3) +
+    
+    # Threshold lines
+    geom_segment(
+        aes(x = minimum_2, xend = minimum_2, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+    geom_segment(
+        aes(x = guaranteed_2, xend = guaranteed_2, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+
+    # Threshold labels
+    geom_label(
+        aes(x = minimum_2, y = 0.17, label = "Min"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +
+    geom_label(
+        aes(x = guaranteed_2, y = 0.17, label = "Guaranteed"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +    
+        
+    # Arrows
+    geom_segment(
+        aes(x = minimum_2, xend = minimum_2, y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    geom_segment(
+        aes(x = guaranteed_2, xend = guaranteed_2, y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    
+    # Other settings
+    scale_fill_identity() +
+    scale_x_continuous(
+        breaks = c(0, minimum_2, guaranteed_2, user_range)
+        ) +
+    labs(x = "", y = "") +
+    coord_cartesian(ylim = c(0, 0.2)) +
+    theme_bw(base_family = "Ubuntu") +
+    theme(legend.position = "none",
+          axis.text.x = element_text(size = 12),
+          axis.title.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank(),
+          panel.border = element_blank(),
+          panel.grid = element_blank())
+```
+:::
+
+::: {.column width="33%"}
+**Option 3**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.88, fig.width=4, out.width="90%"}
+library(ggplot2)
+
+ggplot() + 
+    theme_void() +
+    annotate("text", label = "Not \nInterested", family = "Ubuntu",
+             x = 0.5, y = 0.5, hjust = 0.5, vjust = 0.5, size = 8)
+```
+:::
+:::
+:::
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### Ready to Start
+
+I bet you have chosen **Option 2**, since it has every attribute better than Option 1.
+
+However, there could be trade-offs between the 2 options. One might have a **large** enrollment cash but a **low** monthly cash, while the other is the inverse. Then, you need to make decisions based on your preference.
+
+There are **6** choice questions. Again, when you choose one option, you accept all attributes it provides.
+
+Click on **"Next Page"** to proceed.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### Conjoint Questions
+
+**(1 of 6)** If your utility offers you these 2 SMC programs, which one do you prefer?
+
+(Your BEV has maximum range of **200** miles.)
+
+<a href="https://gwu.quarto.pub/smc/" class="btn btn-primary btn-sm" role="button" target="_blank"> Access the SMC Attributes </a>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+
+alts <- jsonlite::fromJSON(smc_df_json) %>%
+  filter(qID == 1 & altID != 3) %>% 
+  mutate(
+    minimum = minimum_threshold * user_range / 100,
+    minimum = round(minimum / 5) * 5,
+    guaranteed = guaranteed_threshold * user_range / 100,
+    guaranteed = round(guaranteed / 5) * 5)
+
+alt1 <- alts %>% filter(altID == 1)
+alt2 <- alts %>% filter(altID == 2)
+```
+
+::: {style="text-align: center;"}
+::: columns
+::: {.column width="33%"}
+**Option 1**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_1 <- tibble(
+    `Enrollment Cash:` = scales::dollar(alt1$enrollment_cash),
+    `Monthly Cash:` = scales::dollar(alt1$monthly_cash),
+    `Override Allowance:` = paste(alt1$override, "per Month")
+)
+
+option_1_t <- as.data.frame(t(option_1)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_1_t) <- NULL
+
+option_1_kable <- option_1_t %>% 
+    kable(escape = FALSE,
+          align = c("r", "c")) %>% 
+    kable_styling(bootstrap_options = "striped") %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em')
+
+option_1_kable
+```
+
+Battery Thresholds (in Miles):
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.3, fig.width=4, out.width="100%"}
+library(ggplot2)
+
+threshold_1 <- data.frame(
+    xmin = c(0, alt1$minimum, alt1$guaranteed),
+    xmax = c(alt1$minimum, alt1$guaranteed, user_range),
+    ymin = 0,
+    ymax = 0.1,
+    fill = c("lightgrey", "sandybrown", "lightgreen")
+)
+
+ggplot(threshold_1,
+       aes(xmin = xmin, xmax = xmax,
+           ymin = ymin, ymax = ymax,
+           fill = fill)) +
+    
+    # Border
+    geom_rect(color = "black", size = 0.3) +
+    
+    # Threshold lines
+    geom_segment(
+        aes(x = alt1$minimum, xend = alt1$minimum, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+    geom_segment(
+        aes(x = alt1$guaranteed, xend = alt1$guaranteed, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+
+    # Threshold labels
+    geom_label(
+        aes(x = alt1$minimum, y = 0.17, label = "Min"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +
+    geom_label(
+        aes(x = alt1$guaranteed, y = 0.17, label = "Guaranteed"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +    
+        
+    # Arrows
+    geom_segment(
+        aes(x = alt1$minimum, xend = alt1$minimum,
+            y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    geom_segment(
+        aes(x = alt1$guaranteed, xend = alt1$guaranteed,
+            y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    
+    # Other settings
+    scale_fill_identity() +
+    scale_x_continuous(
+        breaks = c(0, alt1$minimum, alt1$guaranteed, user_range)
+        ) +
+    labs(x = "", y = "") +
+    coord_cartesian(ylim = c(0, 0.2)) +
+    theme_bw(base_family = "Ubuntu") +
+    theme(legend.position = "none",
+          axis.text.x = element_text(size = 12),
+          axis.title.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank(),
+          panel.border = element_blank(),
+          panel.grid = element_blank())
+```
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="33%"}
+**Option 2**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_2 <- tibble(
+    `Enrollment Cash:` = scales::dollar(alt2$enrollment),
+    `Monthly Cash:` = scales::dollar(alt2$monthly),
+    `Override Allowance:` = paste(alt2$immediate, "per Month")
+)
+
+option_2_t <- as.data.frame(t(option_2)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_2_t) <- NULL
+
+option_2_kable <- option_2_t %>% 
+    kable(escape = FALSE,
+          align = c("r", "c")) %>% 
+    kable_styling(bootstrap_options = "striped") %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em')
+
+option_2_kable
+```
+
+Battery Thresholds (in Miles):
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.3, fig.width=4, out.width="100%"}
+library(ggplot2)
+
+threshold_2 <- data.frame(
+    xmin = c(0, alt2$minimum, alt2$guaranteed),
+    xmax = c(alt2$minimum, alt2$guaranteed, user_range),
+    ymin = 0,
+    ymax = 0.1,
+    fill = c("lightgrey", "sandybrown", "lightgreen")
+)
+
+ggplot(threshold_2,
+       aes(xmin = xmin, xmax = xmax,
+           ymin = ymin, ymax = ymax,
+           fill = fill)) +
+    
+    # Border
+    geom_rect(color = "black", size = 0.3) +
+    
+    # Threshold lines
+    geom_segment(
+        aes(x = alt2$minimum, xend = alt2$minimum, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+    geom_segment(
+        aes(x = alt2$guaranteed, xend = alt2$guaranteed, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+
+    # Threshold labels
+    geom_label(
+        aes(x = alt2$minimum, y = 0.17, label = "Min"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +
+    geom_label(
+        aes(x = alt2$guaranteed, y = 0.17, label = "Guaranteed"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +    
+        
+    # Arrows
+    geom_segment(
+        aes(x = alt2$minimum, xend = alt2$minimum,
+            y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    geom_segment(
+        aes(x = alt2$guaranteed, xend = alt2$guaranteed,
+            y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    
+    # Other settings
+    scale_fill_identity() +
+    scale_x_continuous(
+        breaks = c(0, alt2$minimum, alt2$guaranteed, user_range)
+        ) +
+    labs(x = "", y = "") +
+    coord_cartesian(ylim = c(0, 0.2)) +
+    theme_bw(base_family = "Ubuntu") +
+    theme(legend.position = "none",
+          axis.text.x = element_text(size = 12),
+          axis.title.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank(),
+          panel.border = element_blank(),
+          panel.grid = element_blank())
+```
+:::
+
+::: {.column width="33%"}
+**Option 3**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.88, fig.width=4, out.width="90%"}
+library(ggplot2)
+
+ggplot() + 
+    theme_void() +
+    annotate("text", label = "Not \nInterested", family = "Ubuntu",
+             x = 0.5, y = 0.5, hjust = 0.5, vjust = 0.5, size = 8)
+```
+:::
+:::
+:::
+
+(The rest 5 questions are identical.)
+
+> **Screening 4 & 5:** If the questions are answered within 20 seconds, or if all questions have the same option, the user will be screened out.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### End of Section 2
+
+Good job! This is the end of **Section 2**.
+
+**Section 3** is the demographic section. In this section, we will ask about your personal and household info.
+
+Please click on the button below to proceed.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+## Section 3 - Demographics
+
+### Personal Info
+
+**1.** To what extend do you believe human-caused climate change is real?
+
+-   I don't believe
+-   I somewhat believe
+-   I'm neutral
+-   I believe
+-   I very much believe
+
+**2.** In what year were you born?
+
+-   Here we provide a list ranging from 1920 to 2005.
+
+**3.** What gender do you identify with?
+
+-   Male
+-   Female
+-   Non-binary
+-   Prefer not to say
+
+**4.** You identify your primary ethnicity as:
+
+-   Here we provide a list of ethnicity.
+
+**5.** What is the highest degree or level of school you have **completed**?
+
+-   Here we provide a list of degrees.
+
+**6.** What is your current employment status?
+
+-   Here we provide a list of employment status.
+
+**7.** Which political party do you typically vote for?
+
+-   Democratic
+-   Republican
+-   I am independent
+-   Prefer not to say
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### Household Info
+
+**8.** In which type of housing do you currently live?
+
+-   Mobile home
+-   Apartment building
+-   Attached house (townhouse, duplex, triplex)
+-   Condominium
+-   Detached house / Single family home
+-   Other (Text box provided)
+-   Prefer not to say
+
+**9.** Do you own or rent your current residence?
+
+-   Own
+-   Rent
+-   Prefer not to say
+
+**10.** How many people live in your household?
+
+-   Here we provide options from 1 to 5, and above 5.
+
+**11.** What is your annual household income (from all sources) before taxes?
+
+-   Here we provide a list of incomes.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### End of Section 3
+
+Well-done! This is the end of **Section 3**.
+
+Section 4 is our **last** section. It's about V2G (another smart charging approach), and it's **optional**. You can choose to take the survey questions, or directly go to the finishing page.
+
+Please click on the **"Next Page"** button to continue.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+## Section 4 - V2G Programs (Optional)
+
+```{r, include=FALSE}
+# Read in the V2G choice questions
+library(tidyverse)
+v2g_survey <- read_csv("https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/v2g_questions.csv")
+
+# Define the respondent ID
+v2g_respID <- sample(v2g_survey$respID, 1)
+
+# Create the subset of rows for that respondent ID
+v2g_df <- v2g_survey %>% 
+    filter(respID == v2g_respID)
+
+# Convert df to json
+v2g_df_json <- jsonlite::toJSON(v2g_df)
+
+# Create a dummy user_range value
+user_range <- 200
+```
+
+> **V2G** (**V**ehicle-**to**-**G**rid) lets your vehicle supply the grid as external power during peak times, reducing the need for additional battery storage and benefiting the environment.
+>
+> If you enroll, your utility may purchase electricity from your car as needed. You'll receive prior notification, and your vehicle will be recharged to a guaranteed range in the end.
+
+**Comparison between non-V2G and V2G:**
+
+::: {style="text-align: center; border: 1px solid black; padding: 10px; margin-bottom: 10px;"}
+![**Figure 2**: *Non-V2G vs V2G*](https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/education_2.png){width="600"}
+:::
+
+When you are done reading, please click on the **"Next Page"** button to proceed.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### Screening Question
+
+> By answering "**Yes**" to **Question 1**, you will be provided with 6 questions of V2G programs. Otherwise, we will guide you to the end. We appreciate your understanding!
+
+**1.** Are you **interested** in V2G (a "**Yes**" will guide you to the V2G questions)?
+
+-   Yes
+-   No
+
+**1.1** (Use `showif`) Are you willing to pay for a V2G charger (can both charge and discharge your vehicle)?
+
+-   Yes (Text box provided)
+-   No
+-   I already have one
+
+> A typical V2G charger's cost ranges from 3000 to 6000.
+
+### Sample V2G Program
+
+Sample **V2G** program (Considering max range of **200** miles):
+
+::: {style="display: flex; flex-wrap: wrap; gap: 2%; padding-bottom: 15px;"}
+::: {style="width: 40%;"}
+::: {style="border: 1px solid black;"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_2 <- tibble(
+    `Enrollment Cash:` = scales::dollar(300),
+    `Occurrence Cash:` = scales::dollar(20),
+    `Monthly Occurrence:` = 1
+)
+
+option_2_t <- as.data.frame(t(option_2)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_2_t) <- NULL
+
+option_2_kable <- option_2_t %>% 
+    kable(escape = FALSE, align = c("r", "c")) %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em') %>%
+    kable_styling(position = "center")
+
+option_2_kable
+```
+
+::: {style="text-align: center;"}
+<img src="https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/battery_v2g/u_200_g_160_l_80.png" style="max-width: 300px; width: 100%; height: auto;"/>
+:::
+:::
+:::
+
+::: {style="width: 58%;"}
+1.  You get one-time payment of **\$300** if you stay for at least 3 months.
+2.  You are compensated **\$20** each time the V2G event occurs.
+3.  The V2G event occurs **1** time per month.
+4.  V2G won't drain your battery below **80** miles.
+5.  Your battery will be charged back to at least **160** miles with 8 hrs' charging.
+:::
+:::
+
+Click <a href="https://gwu.quarto.pub/v2g/" class="btn btn-primary btn-sm" role="button" target="_blank"> This Link </a> for a detailed explanation. It's available on top of each question so that you can refer at any time.
+
+There are **6** V2G program questions. Please click on "Next Page" to proceed.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### Conjoint Questions
+
+**(1 of 6)** If your utility offers you these 2 V2G programs, which one do you prefer?
+
+(Your BEV has maximum range of **200** miles.)
+
+<a href="https://gwu.quarto.pub/v2g/" class="btn btn-primary btn-sm" role="button" target="_blank"> Access the V2G Attributes </a>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+
+alts <- jsonlite::fromJSON(v2g_df_json) %>%
+    filter(qID == 1 & altID != 3) %>% 
+    mutate(
+        lower = lower_bound * user_range / 100,
+        lower = round(lower / 5) * 5,
+        guaranteed = guaranteed_threshold * user_range / 100,
+        guaranteed = round(guaranteed / 5) * 5)
+
+alt1 <- alts %>% filter(altID == 1)
+alt2 <- alts %>% filter(altID == 2)
+```
+
+::: {style="text-align: center;"}
+::: columns
+::: {.column width="33%"}
+**Option 1**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_1 <- tibble(
+    `Enrollment Cash:` = scales::dollar(alt1$enrollment_cash),
+    `Occurrence Cash:` = scales::dollar(alt1$occurrence_cash),
+    `Monthly Occurrence:` = alt1$monthly_occurrence
+)
+
+option_1_t <- as.data.frame(t(option_1)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_1_t) <- NULL
+
+option_1_kable <- option_1_t %>% 
+    kable(escape = FALSE,
+          align = c("r", "c")) %>% 
+    kable_styling(bootstrap_options = "striped") %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em')
+
+option_1_kable
+```
+
+Battery Thresholds (in Miles):
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.3, fig.width=4, out.width="100%"}
+library(ggplot2)
+
+threshold_1 <- data.frame(
+    xmin = c(0, alt1$lower, alt1$guaranteed),
+    xmax = c(alt1$lower, alt1$guaranteed, user_range),
+    ymin = 0,
+    ymax = 0.1,
+    fill = c("lightgrey", "sandybrown", "lightgreen")
+)
+
+ggplot(threshold_1,
+       aes(xmin = xmin, xmax = xmax,
+           ymin = ymin, ymax = ymax,
+           fill = fill)) +
+    
+    # Border
+    geom_rect(color = "black", size = 0.3) +
+    
+    # Threshold lines
+    geom_segment(
+        aes(x = alt1$lower, xend = alt1$lower, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+    geom_segment(
+        aes(x = alt1$guaranteed, xend = alt1$guaranteed, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+
+    # Threshold labels
+    geom_label(
+        aes(x = alt1$lower, y = 0.17, label = "Low"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +
+    geom_label(
+        aes(x = alt1$guaranteed, y = 0.17, label = "Guaranteed"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +    
+        
+    # Arrows
+    geom_segment(
+        aes(x = alt1$lower, xend = alt1$lower,
+            y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    geom_segment(
+        aes(x = alt1$guaranteed, xend = alt1$guaranteed,
+            y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    
+    # Other settings
+    scale_fill_identity() +
+    scale_x_continuous(
+        breaks = c(0, alt1$lower, alt1$guaranteed, user_range)
+        ) +
+    labs(x = "", y = "") +
+    coord_cartesian(ylim = c(0, 0.2)) +
+    theme_bw(base_family = "Ubuntu") +
+    theme(legend.position = "none",
+          axis.text.x = element_text(size = 12),
+          axis.title.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank(),
+          panel.border = element_blank(),
+          panel.grid = element_blank())
+```
+:::
+
+::: {.column width="1%"}
+:::
+
+::: {.column width="33%"}
+**Option 2**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_2 <- tibble(
+    `Enrollment Cash:` = scales::dollar(alt2$enrollment_cash),
+    `Occurrence Cash:` = scales::dollar(alt2$occurrence_cash),
+    `Monthly Occurrence:` = alt2$monthly_occurrence
+)
+
+option_2_t <- as.data.frame(t(option_2)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_2_t) <- NULL
+
+option_2_kable <- option_2_t %>% 
+    kable(escape = FALSE,
+          align = c("r", "c")) %>% 
+    kable_styling(bootstrap_options = "striped") %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em')
+
+option_2_kable
+```
+
+Battery Thresholds (in Miles):
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.3, fig.width=4, out.width="100%"}
+library(ggplot2)
+
+threshold_2 <- data.frame(
+    xmin = c(0, alt2$lower, alt2$guaranteed),
+    xmax = c(alt2$lower, alt2$guaranteed, user_range),
+    ymin = 0,
+    ymax = 0.1,
+    fill = c("lightgrey", "sandybrown", "lightgreen")
+)
+
+ggplot(threshold_2,
+       aes(xmin = xmin, xmax = xmax,
+           ymin = ymin, ymax = ymax,
+           fill = fill)) +
+    
+    # Border
+    geom_rect(color = "black", size = 0.3) +
+    
+    # Threshold lines
+    geom_segment(
+        aes(x = alt2$lower, xend = alt2$lower, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+    geom_segment(
+        aes(x = alt2$guaranteed, xend = alt2$guaranteed, y = 0, yend = 0.1),
+        color = "royalblue", size = 0.3
+        ) +
+
+    # Threshold labels
+    geom_label(
+        aes(x = alt2$lower, y = 0.17, label = "Low"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +
+    geom_label(
+        aes(x = alt2$guaranteed, y = 0.17, label = "Guaranteed"),
+        label.padding = unit(0.2, "lines"),
+        size = 4, hjust = 0.5, family = "Ubuntu", fill = "lightblue"
+        ) +    
+        
+    # Arrows
+    geom_segment(
+        aes(x = alt2$lower, xend = alt2$lower,
+            y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    geom_segment(
+        aes(x = alt2$guaranteed, xend = alt2$guaranteed,
+            y = 0.11, yend = 0.13),
+        arrow = arrow(length = unit(0.03, "npc"),
+                      type = "closed", ends = "first")
+        ) +
+    
+    # Other settings
+    scale_fill_identity() +
+    scale_x_continuous(
+        breaks = c(0, alt2$lower, alt2$guaranteed, user_range)
+        ) +
+    labs(x = "", y = "") +
+    coord_cartesian(ylim = c(0, 0.2)) +
+    theme_bw(base_family = "Ubuntu") +
+    theme(legend.position = "none",
+          axis.text.x = element_text(size = 12),
+          axis.title.y = element_blank(),
+          axis.text.y = element_blank(),
+          axis.ticks.y = element_blank(),
+          panel.border = element_blank(),
+          panel.grid = element_blank())
+```
+:::
+
+::: {.column width="33%"}
+**Option 3**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.88, fig.width=4, out.width="90%"}
+library(ggplot2)
+
+ggplot() + 
+    theme_void() +
+    annotate("text", label = "Not \nInterested", family = "Ubuntu",
+             x = 0.5, y = 0.5, hjust = 0.5, vjust = 0.5, size = 8)
+```
+:::
+:::
+:::
+
+(The rest 5 questions are identical.)
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Next Page </a>
+:::
+
+### End of Section 4
+
+```{r, include=FALSE}
+completion_code <- as.integer(round(runif(1, 10^5, 10^6)))
+```
+
+Well-done! We appreciate your patience and your time. This is the end of Section 4, also the end of the survey.
+
+Your completion code is: **`r completion_code`**.
+
+Please let us know if you have any other thoughts or feedback on this survey:
+
+-   Here we provide a text box accepting large amount of texts.
+
+::: {style="text-align: center;"}
+<a class="btn btn-info" role="button"> Finish </a>
+:::
+
+## End of Survey
+
+Congratulations! The survey is finished. We appreciate your participation.
+
+If you have further questions or inquiries, feel free to contact us via [gwuvehicle\@gmail.com](mailto:gwuvehicle@gmail.com). We will respond at our first convenience.

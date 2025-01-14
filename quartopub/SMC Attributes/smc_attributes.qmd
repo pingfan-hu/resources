@@ -1,0 +1,92 @@
+---
+title: "Supplier-Managed Charging"
+
+format:
+  html:
+    theme: United
+    css: styles.css
+    self-contained: true
+    link-external-newwindow: true
+    link-external-icon: false
+    lightbox: true
+    backgroundcolor: "#F8F7F0"
+
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+library(kableExtra)
+```
+
+> **SMC** (**S**upplier-**M**anaged **C**harging) allows the utility to monitor, manage, and restrict BEV charging to optimize energy flow **during night charging at home**. By SMC, your BEV will be mostly charged during off-peak periods.
+
+**Sample SMC Program** (Considering max range of **200** miles):
+
+::: {style="display: flex; flex-wrap: wrap; gap: 2%;"}
+::: {style="width: 40%;"}
+::: {style="border: 1px solid black;"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(tibble)
+library(kableExtra)
+
+option_2 <- tibble(
+    `Enrollment Cash:` = scales::dollar(300),
+    `Monthly Cash:` = scales::dollar(20),
+    `Override Allowance:` = "5 per month"
+)
+
+option_2_t <- as.data.frame(t(option_2)) %>% 
+    rownames_to_column(var = "Attribute")
+colnames(option_2_t) <- NULL
+
+option_2_kable <- option_2_t %>% 
+    kable(escape = FALSE, align = c("r", "c")) %>% 
+    column_spec(column = 1, width = '16em') %>%
+    column_spec(column = 2, width = '10em') %>% 
+    kable_styling(position = "center")
+
+option_2_kable
+```
+
+::: {style="text-align: center;"}
+<img src="https://raw.githubusercontent.com/pingfan-hu/My-Resources/main/bev/battery_smc/u_200_g_160_m_80.png" style="max-width: 300px; width: 100%; height: auto;"/>
+:::
+:::
+:::
+
+::: {style="width: 58%;"}
+1.  You get one-time payment of **\$300** if you stay for at least 3 months.
+2.  You get recurring monthly payment of **\$20** if you don't exceed override allowance for that month.
+3.  Freely override to normal charging for up to **5** times per month, each time effective for 24 hrs.
+4.  SMC won't be triggered if battery is below **80** miles.
+5.  SMC will give you guaranteed **160** miles by the morning (8 hrs' charging).
+:::
+:::
+
+**SMC Attributes Explained:**
+
+```{r}
+smc_attributes <- tibble(
+    `No.` = c("Attribute", "Range", "Explanation"),
+    `1` = c("Enrollment Cash", "$50, $100, $200, $300", "The one-time payment you'll receive if you stay for at least 3 months."),
+    `2` = c("Monthly Cash", "$2, $5, $10, $15, $20", "The recurring monthly payment you'll receive if you don't exceed override allowance."),
+    `3` = c("Override Allowance", "0, 1, 3, 5", "The monthly frequency of freely override to normal charging, effective for 24hrs. If you exceed the limit, no monthly cash for this month."),
+    `4` = c("Minimum Threshold", "20%, 30%, 40%", "(See battery bar) SMC won't be triggered below this threshold. Converted to miles."),
+    `5` = c("Guaranteed Threshold", "60%, 70%, 80%", "(See battery bar) SMC will give you this much of range by the morning (8 hrs' cahrging). Converted to miles."))
+row.names(smc_attributes) <- NULL
+
+kable(t(smc_attributes), escape = FALSE) %>% 
+    kable_styling(bootstrap_options = c("striped", "hover")) %>% 
+    column_spec(column = 1, width = '3%') %>% 
+    column_spec(column = 2, width = '21%') %>% 
+    column_spec(column = 3, width = '20%') %>% 
+    column_spec(column = 4, width = '100%') %>% 
+    row_spec(row = 1, bold = TRUE)
+```
