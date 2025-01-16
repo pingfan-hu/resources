@@ -1,0 +1,38 @@
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{SMC Model Coefficients}
+\fontsize{11}{12}\selectfont
+\begin{tabular}{l>{\centering\arraybackslash}p{1.5cm}>{\centering\arraybackslash}p{1.8cm}ccc}
+\toprule
+\textbf{Attribute} & \textbf{Coef.} & \textbf{Dist.} & \textbf{Type} & \textbf{Est.} & \textbf{SE}\\
+\midrule
+\multirow{-1}{*}{\raggedright\arraybackslash Enroll. Cash} & \multirow{-1}{1.5cm}{\centering\arraybackslash $\beta_1$} & {-} & $\mu$ & 0.0037 & 0.0002\\
+\cmidrule(lr){1-6}
+\multirow{-1}{*}{\raggedright\arraybackslash Monthly Cash} & \multirow{-1}{1.5cm}{\centering\arraybackslash $\beta_2$} & {-} & $\mu$ & 0.0726 & 0.0031\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{normal} & $\mu$ & 0.4237 & 0.0585\\
+\multirow{-2}{*}{\raggedright\arraybackslash Override of 1} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_3$} &  & $\sigma$ & 0.7247 & 0.1051\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{normal} & $\mu$ & 0.8493 & 0.0575\\
+\multirow{-2}{*}{\raggedright\arraybackslash Override of 3} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_4$} &  & $\sigma$ & 0.3825 & 0.1359\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{normal} & $\mu$ & 0.9294 & 0.0588\\
+\multirow{-2}{*}{\raggedright\arraybackslash Override of 5} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_5$} &  & $\sigma$ & 0.7175 & 0.0993\\
+\cmidrule(lr){1-6}
+\multirow{-1}{*}{\raggedright\arraybackslash Min. Threshold} & \multirow{-1}{1.5cm}{\centering\arraybackslash $\beta_6$} & {-} & $\mu$ & 0.0037 & 0.0023\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{\shortstack{censored\\normal}} & $\mu$ & 0.0515 & 0.0021\\
+\multirow{-2}{*}{\raggedright\arraybackslash Guar. Threshold} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_7$} &  & $\sigma$ & 0.0336 & 0.0001\\
+\cmidrule(lr){1-6}
+\multirow{-1}{*}{\raggedright\arraybackslash No Choice} & \multirow{-1}{1.5cm}{\centering\arraybackslash $\beta_8$} & {-} & $\mu$ & 2.9658 & 0.1395\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item [1] \textit{This model shows the utility of each attribute with 1 unit increment. E.g., enrollment cash coefficient of 0.0037 means increasing enrollment cash by \$1 will increase customer utility by 0.0037.}
+\item [2] \textit{Override and guaranteed threshold attributes have assumed distributions and thus make the whole model as MXL model.}
+\end{tablenotes}
+\label{table_smc_model}
+\end{threeparttable}
+\end{table}

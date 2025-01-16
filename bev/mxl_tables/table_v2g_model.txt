@@ -1,0 +1,38 @@
+\begin{table}[H]
+\centering
+\begin{threeparttable}
+\caption{V2G Model Coefficients}
+\fontsize{11}{12}\selectfont
+\begin{tabular}{l>{\centering\arraybackslash}p{1.5cm}>{\centering\arraybackslash}p{1.8cm}ccc}
+\toprule
+\textbf{Attribute} & \textbf{Coef.} & \textbf{Dist.} & \textbf{Type} & \textbf{Est.} & \textbf{SE}\\
+\midrule
+\multirow{-1}{*}{\raggedright\arraybackslash Enroll. Cash} & \multirow{-1}{1.5cm}{\centering\arraybackslash $\beta_1$} & {-} & $\mu$ & 0.0051 & 0.0003\\
+\cmidrule(lr){1-6}
+\multirow{-1}{*}{\raggedright\arraybackslash Occur. Cash} & \multirow{-1}{1.5cm}{\centering\arraybackslash $\beta_2$} & {-} & $\mu$ & 0.0964 & 0.0046\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{normal} & $\mu$ & 0.2069 & 0.0791\\
+\multirow{-2}{*}{\raggedright\arraybackslash Occurrence of 2} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_3$} &  & $\sigma$ & 0.6071 & 0.1693\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{normal} & $\mu$ & 0.4181 & 0.0743\\
+\multirow{-2}{*}{\raggedright\arraybackslash Occurrence of 3} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_4$} &  & $\sigma$ & 0.1229 & 0.2127\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{normal} & $\mu$ & 0.4417 & 0.0768\\
+\multirow{-2}{*}{\raggedright\arraybackslash Occurrence of 4} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_5$} &  & $\sigma$ & 0.2720 & 0.1855\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{normal} & $\mu$ & 0.0272 & 0.0036\\
+\multirow{-2}{*}{\raggedright\arraybackslash Lower Bound} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_6$} &  & $\sigma$ & 0.0316 & 0.0037\\
+\cmidrule(lr){1-6}
+ &  & \multirow{2}{*}{\shortstack{censored\\normal}} & $\mu$ & 0.0365 & 0.0025\\
+\multirow{-2}{*}{\raggedright\arraybackslash Guar. Threshold} & \multirow{-2}{1.5cm}{\centering\arraybackslash $\beta_7$} &  & $\sigma$ & 0.0362 & 0.0025\\
+\cmidrule(lr){1-6}
+\multirow{-1}{*}{\raggedright\arraybackslash No Choice} & \multirow{-1}{1.5cm}{\centering\arraybackslash $\beta_8$} & {-} & $\mu$ & 2.3958 & 0.1920\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item [] \textit{See descriptions in Table \ref{table_smc_model}.}
+\end{tablenotes}
+\label{table_v2g_model}
+\end{threeparttable}
+\end{table}
