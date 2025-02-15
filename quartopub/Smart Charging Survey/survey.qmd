@@ -24,7 +24,9 @@ execute:
 
 ## Links
 
-<a href="https://carsurvey3.formr.org/" class="btn btn-primary" role="button" target="_blank"> Survey </a> <a href="https://gwu.quarto.pub/smc/" class="btn btn-primary" role="button" target="_blank"> SMC Attributes </a> <a href="https://gwu.quarto.pub/v2g/" class="btn btn-primary" role="button" target="_blank"> V2G Attributes </a>
+<center>
+<a href="https://carsurvey3.formr.org/" class="btn btn-success" role="button" target="_blank"> Survey </a> <a href="https://gwu.quarto.pub/smc/" class="btn btn-primary" role="button" target="_blank"> SMC Attributes </a> <a href="https://gwu.quarto.pub/v2g/" class="btn btn-primary" role="button" target="_blank"> V2G Attributes </a>
+</center>
 
 ## Start
 

@@ -1,6 +1,4 @@
 - source: survey.qmd
   quarto-pub:
-    - id: 464997e8-36ac-4132-93bb-9a3916c7f44b
-      url: 'https://gwu.quarto.pub/survey'
     - id: 378b3afd-502c-4422-a6f1-c2b44f90a76f
-      url: 'https://gwu.quarto.pub/smartchargingsurvey'
+      url: https://gwu.quarto.pub/smartchargingsurvey
