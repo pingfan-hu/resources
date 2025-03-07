@@ -3,12 +3,12 @@ title: "Conjoint Survey of BEV Smart Charging Adoption"
 
 format:
   html:
+    toc: true
     theme: United
     css: styles.css
     self-contained: true
     link-external-newwindow: true
     link-external-icon: false
-    lightbox: true
     backgroundcolor: "#F8F7F0"
 
 execute: 
@@ -594,7 +594,7 @@ ggplot(threshold_2, aes(xmin = xmin, xmax = xmax,
 ::: {.column width="33%"}
 **Option 3**
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.88, fig.width=4, out.width="90%"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=1, fig.width=4, out.width="90%"}
 library(ggplot2)
 
 ggplot() + 
@@ -861,7 +861,7 @@ ggplot(threshold_2,
 ::: {.column width="33%"}
 **Option 3**
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.88, fig.width=4, out.width="90%"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=1, fig.width=4, out.width="90%"}
 library(ggplot2)
 
 ggplot() + 
@@ -1326,7 +1326,7 @@ ggplot(threshold_2,
 ::: {.column width="33%"}
 **Option 3**
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=0.88, fig.width=4, out.width="90%"}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='default', fig.asp=1, fig.width=4, out.width="90%"}
 library(ggplot2)
 
 ggplot() + 
