@@ -764,9 +764,9 @@ library(tibble)
 library(kableExtra)
 
 option_2 <- tibble(
-    `Enrollment Cash:` = scales::dollar(alt2$enrollment),
-    `Monthly Cash:` = scales::dollar(alt2$monthly),
-    `Override Allowance:` = paste(alt2$immediate, "per Month")
+    `Enrollment Cash:` = scales::dollar(alt2$enrollment_cash),
+    `Monthly Cash:` = scales::dollar(alt2$monthly_cash),
+    `Override Allowance:` = paste(alt2$override, "per Month")
 )
 
 option_2_t <- as.data.frame(t(option_2)) %>% 
