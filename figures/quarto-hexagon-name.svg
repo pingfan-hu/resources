@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 157 177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-21.7538,-11.7538)">
+        <path d="M100,20L170,60L170,140L100,180L30,140L30,60L100,20Z" style="fill:none;fill-rule:nonzero;stroke:rgb(116,169,219);stroke-width:4px;"/>
+        <g transform="matrix(0.6,0,0,0.6,40,40)">
+            <path d="M106,94L106,16C146.622,21.136 178.864,53.378 184,94L106,94" style="fill:rgb(116,169,219);fill-rule:nonzero;"/>
+            <path d="M94,94L16,94C21.136,53.378 53.378,21.136 94,16L94,94" style="fill:rgb(116,169,219);fill-rule:nonzero;"/>
+            <path d="M94,106L94,184C53.378,178.864 21.136,146.622 16,106L94,106" style="fill:rgb(116,169,219);fill-rule:nonzero;"/>
+            <path d="M106,106L184,106C178.864,146.622 146.622,178.864 106,184L106,106" style="fill:rgb(116,169,219);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1.04947,-0.605914,0.605914,1.04947,108.885,167.463)">
+            <text x="0px" y="0px" style="font-family:'Monaco';font-size:12px;fill:rgb(116,169,219);">Quarto</text>
+        </g>
+    </g>
+</svg>
