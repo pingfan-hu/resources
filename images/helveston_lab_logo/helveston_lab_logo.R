@@ -3,7 +3,9 @@ library(Cairo)
 
 # Function to calculate hexagon vertices
 
-deg2rad <- function(deg) { return(deg * (pi / 180)) }
+deg2rad <- function(deg) {
+  return(deg * (pi / 180))
+}
 
 hexagon_vertices <- function(center_x, center_y, radius) {
   angles_deg <- seq(90, -270, by = -60) # Starting from the top vertex and moving clockwise
@@ -33,8 +35,8 @@ offset <- 0.6
 
 mid_x <- hexagon_points$x[6] / 2
 mid_y <- hexagon_points$y[6] / 2
-shift_x <- offset/2*cos(deg2rad(30))
-shift_y <- offset/2*sin(deg2rad(30))
+shift_x <- offset / 2 * cos(deg2rad(30))
+shift_y <- offset / 2 * sin(deg2rad(30))
 
 t_points <- data.frame(
   x = c(
@@ -61,8 +63,8 @@ t_points <- data.frame(
 
 # Find points to make "C"
 
-shift_x <- offset*cos(deg2rad(30))
-shift_y <- offset*sin(deg2rad(30))
+shift_x <- offset * cos(deg2rad(30))
+shift_y <- offset * sin(deg2rad(30))
 
 c_points <- data.frame(
   x = c(
@@ -70,7 +72,7 @@ c_points <- data.frame(
     hexagon_points$x[6],
     hexagon_points$x[1],
     hexagon_points$x[1] + shift_x,
-    hexagon_points$x[6] + 2*shift_x,
+    hexagon_points$x[6] + 2 * shift_x,
     0,
     hexagon_points$x[2] - shift_x,
     hexagon_points$x[2]
@@ -111,74 +113,90 @@ l_points <- data.frame(
 # Logo (with no labels)
 
 logo <- ggplot() +
-    # Make outer hexagon
-    geom_polygon(
-        data = hexagon_points,
-        aes(x = x, y = y),
-        fill = 'white', color = "black",
-        size = 2
-    ) +
-    # Make inner lines
-    geom_segment(
-        data = segments_data,
-        aes(x = x, y = y, xend = xend, yend = yend),
-        color = "black",
-        size = 2
-    ) +
-    # Make parallelograms
-    geom_polygon(
-        data = rbind(hexagon_points[c(4, 5, 6),], data.frame(x = 0, y = 0)),
-        aes(x = x, y = y),
-        color = "black", fill = "#103b5b",
-        size = 2
-    ) +
-    geom_polygon(
-        data = rbind(hexagon_points[c(6, 1, 2),], data.frame(x = 0, y = 0)),
-        aes(x = x, y = y),
-        color = "black", fill = "#b5d562",
-        size = 2
-    ) +
-    geom_polygon(
-        data = rbind(hexagon_points[c(2, 3, 4),], data.frame(x = 0, y = 0)),
-        aes(x = x, y = y),
-        color = "black", fill = "#c6d6e0",
-        size = 2
-    ) +
-    # Make T
-    geom_polygon(
-        data = t_points,
-        aes(x = x, y = y),
-        color = "black", fill = "white",
-        size = 2
-    ) +
-    # geom_point(data = t_points, aes(x = x, y = y), size = 5, color = 'white') +
-    # Make C
-    geom_polygon(
-        data = c_points,
-        aes(x = x, y = y),
-        color = "black", fill = "white",
-        size = 2
-    ) +
-    # geom_point(data = c_points, aes(x = x, y = y), size = 5, color = 'white') +
-    # Make L
-    geom_polygon(
-        data = l_points,
-        aes(x = x, y = y),
-        color = "black", fill = "white",
-        size = 2
-    ) +
-    # geom_point(data = l_points, aes(x = x, y = y), size = 5, color = 'white') +
-    coord_fixed() +
-    theme_void() +
-    theme(
-        plot.background = element_rect(fill = "transparent", colour = NA),
-        panel.background = element_rect(fill = "transparent", colour = NA)
-    )
+  # Make outer hexagon
+  geom_polygon(
+    data = hexagon_points,
+    aes(x = x, y = y),
+    fill = 'white',
+    color = "black",
+    size = 2
+  ) +
+  # Make inner lines
+  geom_segment(
+    data = segments_data,
+    aes(x = x, y = y, xend = xend, yend = yend),
+    color = "black",
+    size = 2
+  ) +
+  # Make parallelograms
+  geom_polygon(
+    data = rbind(hexagon_points[c(4, 5, 6), ], data.frame(x = 0, y = 0)),
+    aes(x = x, y = y),
+    color = "black",
+    fill = "#103b5b",
+    size = 2
+  ) +
+  geom_polygon(
+    data = rbind(hexagon_points[c(6, 1, 2), ], data.frame(x = 0, y = 0)),
+    aes(x = x, y = y),
+    color = "black",
+    fill = "#b5d562",
+    size = 2
+  ) +
+  geom_polygon(
+    data = rbind(hexagon_points[c(2, 3, 4), ], data.frame(x = 0, y = 0)),
+    aes(x = x, y = y),
+    color = "black",
+    fill = "#c6d6e0",
+    size = 2
+  ) +
+  # Make T
+  geom_polygon(
+    data = t_points,
+    aes(x = x, y = y),
+    color = "black",
+    fill = "white",
+    size = 2
+  ) +
+  # geom_point(data = t_points, aes(x = x, y = y), size = 5, color = 'white') +
+  # Make C
+  geom_polygon(
+    data = c_points,
+    aes(x = x, y = y),
+    color = "black",
+    fill = "white",
+    size = 2
+  ) +
+  # geom_point(data = c_points, aes(x = x, y = y), size = 5, color = 'white') +
+  # Make L
+  geom_polygon(
+    data = l_points,
+    aes(x = x, y = y),
+    color = "black",
+    fill = "white",
+    size = 2
+  ) +
+  # geom_point(data = l_points, aes(x = x, y = y), size = 5, color = 'white') +
+  coord_fixed() +
+  theme_void() +
+  theme(
+    plot.background = element_rect(fill = "transparent", colour = NA),
+    panel.background = element_rect(fill = "transparent", colour = NA)
+  )
 
-ggsave('helveston_lab_logo/logo.pdf',
-       logo, height = 6, width = 6, bg = "transparent", device = cairo_pdf)
-renderthis::to_png('helveston_lab_logo/logo.pdf',
-                   'helveston_lab_logo/logo.png', density = 300)
+ggsave(
+  'images/helveston_lab_logo/logo.pdf',
+  logo,
+  height = 6,
+  width = 6,
+  bg = "transparent",
+  device = cairo_pdf
+)
+renderthis::to_png(
+  'images/helveston_lab_logo/logo.pdf',
+  'images/helveston_lab_logo/logo.png',
+  density = 300
+)
 
 # Add labels
 
@@ -242,8 +260,16 @@ logo_labeled <- logo +
     panel.background = element_rect(fill = "transparent", colour = NA)
   )
 
-ggsave('helveston_lab_logo/logo-labeled.pdf',
-       logo_labeled, height = 6, width = 6,
-       bg = "transparent", device = cairo_pdf)
-renderthis::to_png('helveston_lab_logo/logo-labeled.pdf',
-                   'helveston_lab_logo/logo-labeled.png', density = 300)
+ggsave(
+  'images/helveston_lab_logo/logo-labeled.pdf',
+  logo_labeled,
+  height = 6,
+  width = 6,
+  bg = "transparent",
+  device = cairo_pdf
+)
+renderthis::to_png(
+  'images/helveston_lab_logo/logo-labeled.pdf',
+  'images/helveston_lab_logo/logo-labeled.png',
+  density = 300
+)
