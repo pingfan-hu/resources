@@ -16,11 +16,16 @@ uv pip install -r ~/.venvs/packages.txt
 
 Save `packages.txt` to `~/.venvs/packages.txt`.
 
-## Auto-Activate on Terminal Start
+## Enter venv
 
 ```bash
-echo 'source ~/.venvs/common/bin/activate' >> ~/.zshrc
-source ~/.zshrc
+source ~/.venvs/common/bin/activate
+```
+
+## Exit venv
+
+```bash
+deactivate
 ```
 
 ## Rebuild (After Reinstalling Python)
@@ -36,8 +41,6 @@ uv pip install -r ~/.venvs/packages.txt
 
 | Command | Action |
 |---------|--------|
-| `deactivate` | Exit venv |
-| `source ~/.venvs/common/bin/activate` | Re-enter venv |
 | `uv pip install <package>` | Install package |
 | `uv pip list` | List installed packages |
 
